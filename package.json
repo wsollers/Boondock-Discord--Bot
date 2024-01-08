@@ -1,0 +1,61 @@
+{
+  "name": "boondock-discord--bot",
+  "version": "1.0.0",
+  "description": "My test bot",
+  "main": "index.js",
+
+    "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node .",
+    "build": "tsup src/index.ts --minify",
+    "format": "prettier --write \"**/*.{json,ts}\"",
+    "lint": "eslint . --ext ts --fix"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.8.4",
+    "tsup": "^6.6.0",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsollers/Boondock-Discord--Bot.git"
+  },
+  "keywords": [
+    "discord",
+    "typescript"
+  ],
+  "author": "William Sollers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wsollers/Boondock-Discord--Bot/issues"
+  },
+  "homepage": "https://github.com/wsollers/Boondock-Discord--Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "tsup": "^8.0.1",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dev": "tsx watch src/index.ts",
+  "start": "node dist/index.js",
+  "build": "tsup src/index.ts --minify"
+}
