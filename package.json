@@ -52,8 +52,8 @@
   },
   "devDependencies": {
     "eslint": "^8.55.0",
-    "tsup": "^8.0.1",
-    "tsx": "^4.6.2",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.3.3"
   },
   "dev": "tsx watch src/index.ts",
