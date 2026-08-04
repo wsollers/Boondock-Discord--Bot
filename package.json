@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/wsollers/Boondock-Discord--Bot#readme",
   "dependencies": {
-    "discord.js": "^14.15.2",
+    "discord.js": "^14.27.0",
     "dotenv": "^16.3.1",
     "node-fetch": "^3.3.2"
   },
